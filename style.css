@@ -1,0 +1,490 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+header {
+  height: 70px;
+  position: relative;
+}
+header img {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: 5px;
+  left: 80px;
+}
+nav {
+  width: 300px;
+  height: 60px;
+  display: flex;
+  position: absolute;
+  top: 5px;
+  left: 530px;
+}
+nav a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 60px;
+  position: relative;
+  bottom: 20px;
+  text-decoration: none;
+  color: #345f71;
+}
+.head-btn {
+  position: relative;
+  top: 5px;
+  left: 1000px;
+  width: 230px;
+  height: 60px;
+  display: flex;
+  gap: 10px;
+}
+.sign-in {
+  height: 40px;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border: none;
+  border-radius: 10px;
+  color: #345f71;
+  background-color: transparent;
+  border: 1px solid #345f71;
+} .back,
+.search,
+.book-new {
+  background-color: #e76f51;
+  color: white;
+  height: 40px;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border: none;
+  border-radius: 10px;
+}
+.se-one {
+  height: 600px;
+  background-image: url(./image/hero-sec.jpg);
+  background-size: cover;
+}
+.contaner-one {
+  position: absolute;
+  top: 30%;
+  left: 80px;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.egypt {
+  margin-bottom: 20px;
+  width: 60%;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.egypt p {
+  height: 30px;
+  width: 300px;
+  border-radius: 90px;
+  border: 1px solid #345f71;
+  color: #cbd5e1;
+  background-color: #1e293b99;
+  text-align: center;
+  position: relative;
+}
+.egypt div {
+  background-color: #e76f51;
+  width: 8px;
+  height: 8px;
+  position: relative;
+  left: 60px;
+  bottom: 5px;
+  border-radius: 180px;
+}
+.contaner-one h3 {
+  font-size: 40px;
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 900;
+  color: white;
+  flex-direction: column;
+}
+.contaner-one h3 span {
+  color: #e76f51;
+}
+.contaner-one p {
+  font-size: 15px;
+  font-weight: 400;
+  color: #ffffff;
+}
+.se1-btn {
+  display: flex;
+  gap: 20px;
+}
+.se1-btn button {
+  width: 150px;
+}
+.react-div {
+  background-color: #1e293b99;
+  width: 208px;
+  height: 217px;
+  border: 10px;
+  padding: 24px;
+  position: absolute;
+  top: 30%;
+  left: 1000px;
+}
+.react-1 {
+  width: 158px;
+  height: 45px;
+  display: flex;
+  gap: 12px;
+}
+.color-3,
+.color-2,
+.color-1 {
+  width: 8px;
+  height: 32px;
+  border-radius: 90px;
+  background-color: #88b6c9;
+}
+.react-text {
+  width: 81px;
+  height: 45px;
+}
+.react-text h4 {
+  color: white;
+  font-weight: 700;
+  font-size: 18px;
+}
+.react-text p {
+  color: #cbd5e1;
+  font-weight: 400;
+  font-size: 12px;
+}
+.color-2 {
+  background-color: #1fc16b;
+}
+.color-3 {
+  background-color: #e76f51;
+}
+.icon-div {
+  width: 80%;
+  height: 50px;
+  position: absolute;
+  background-color: white;
+  left: 10%;
+  border-radius: 18px;
+  top: 640px;
+  display: flex;
+  gap: 1%;
+}
+.icon-1 {
+  width: 23%;
+  height: 40px;
+  position: relative;
+  top: 5px;
+  background-color: #f0925c0d;
+  display: flex;
+  left: 20px;
+  border-radius: 18px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+  color: #1e293980;
+  align-items: center;
+  justify-content: start;
+}
+.search {
+  position: relative;
+  top: 5px;
+  left: 90px;
+}
+.se-two {
+  background-color: #f0925c0d;
+}
+.contaner-text2 {
+  width: 80%;
+  height: 165px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 30px;
+}
+.trips {
+  width: 80%;
+  height: 45px;
+}
+.trips p {
+  width: 130px;
+  height: 32px;
+  position: relative;
+  border-radius: 100px;
+  border: none;
+  padding: 6px 16px;
+  display: flex;
+  background-color: #f0925c26;
+  color: #e76f51;
+  left: 560px;
+  text-align: center;
+}
+.contaner-text2 h2 {
+  width: 652px;
+  height: 58px;
+  font-weight: 800;
+  font-size: 35px;
+  position: relative;
+  left: 420px;
+}
+.contaner-text2 .p-2 {
+  width: 520px;
+  height: 52px;
+  font-weight: 400;
+  font-size: 18px;
+  position: relative;
+  left: 380px;
+  color: #8e8e8e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  position: relative;
+  top: 50px;
+  left: 20px;
+}
+.card-1 {
+  width: 400px;
+  height: 435px;
+  border-radius: 20px;
+  border: 1px solid #e9e4da;
+}
+.card-img {
+  width: 402px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+.text-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.text-1-card {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.text-1-card h4 {
+  position: relative;
+  left: 10px;
+  color: #345f71;
+}
+.text-1-card p {
+  position: relative;
+  left: 10px;
+  color: #88b6c9;
+}
+.seal {
+  position: relative;
+  right: 20px;
+  top: 10px;
+}
+.img-con {
+  width: 267px;
+  height: 22px;
+  position: relative;
+  top: 20px;
+  left: 80px;
+  object-fit: cover;
+}
+.card-btns {
+  display: flex;
+  gap: 20px;
+  position: relative;
+  top: 50px;
+  left: 25px;
+}
+.card-btns button {
+  width: 150px;
+}
+.view {
+  width: 200px;
+  height: 45px;
+  border-radius: 90px;
+  padding: 8px 16px;
+  border: 1px solid #a6c8d6;
+  position: relative;
+  top: 80px;
+  left: 570px;
+}
+.se-three {
+  width: 100%;
+  height: 500px;
+  position: relative;
+  top: 200px;
+  background-color: #264653;
+}
+.destinatuons,
+.choose {
+  width: 155px;
+  height: 33px;
+  position: relative;
+  left: 540px;
+  border-radius: 100px;
+  padding: 6px 16px;
+  display: flex;
+  gap: 6px;
+  background-color: #f0925c33;
+  top: 20px;
+  color: #e76f51;
+}
+.se3-text {
+}
+.se3-text h2 {
+  width: 1280px;
+  height: 58px;
+  position: relative;
+  top: 50px;
+  text-align: center;
+  color: white;
+  font-size: 35px;
+  font-weight: 800;
+}
+.se3-text p {
+  width: 520px;
+  height: 58px;
+  position: relative;
+  top: 50px;
+  left: 400px;
+  text-align: center;
+  color: #ffffffa6;
+  font-size: 17px;
+  font-weight: 800;
+}
+.se3-cards {
+  width: 1280px;
+  height: 245px;
+  display: flex;
+  justify-content: space-between;
+}
+.se3-card {
+  width: 305px;
+  height: 245px;
+  border-radius: 20px;
+  padding: 32px 24px;
+  background-color: #ffffff0d;
+  border: 1px solid #ffffff1a;
+  position: relative;
+  top: 50px;
+}
+.se3-cards img {
+  width: 52px;
+  height: 52px;
+}
+.text-choose {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  gap: 20px;
+}
+.text-choose p {
+  color: #ffffff99;
+  font-size: 16px;
+  font-weight: 400;
+}
+.destinatuons {
+  position: relative;
+  top: 250px;
+}
+.se4-text {
+  width: 40%;
+  height: 118px;
+  display: flex;
+  gap: 8px;
+  flex-direction: column;
+  position: relative;
+  top: 300px;
+  left: 30%;
+  text-align: center;
+}
+.se4-text h2 span {
+  color: #e76f51;
+}
+.se4-text p {
+  color: #8e8e8e;
+}
+.contaner-five{
+    width: 1280px;
+    height: 760px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    position: relative;
+left: 5%;
+}
+.contaner-five div{
+    width: 350px;
+    height: 360px;
+    border-radius: 16px;
+    position: relative;
+    top: 300px;
+}
+.photo{
+    width: 350px;
+    height: 360px;
+    border-radius: 16px;
+    object-fit: cover;
+}
+.image-1{
+    width: 600px;
+    width: 100%;
+    position: relative;
+    bottom: 120px;
+    object-fit: cover;
+}
+.se-six{
+    width: 1284px;
+    height: 425px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+
+}
+.se-six img{
+    width: 30%;
+    height: 200px;
+    border-radius: px;
+    object-fit: cover;
+    position: relative;
+    top: 400px;
+    left: 205px;
+}
+.se6-text{
+    position: relative;
+    left: 400px;
+    top: 197px;
+    background-color: #264653;
+    height: 200px;
+    color: white;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+

@@ -1,0 +1,128 @@
+@media (max-width:992px){
+    header{
+        height: 100px;
+    }
+    header img{
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        top: 5px;
+        left: 20px;
+    }
+    nav{
+        width: 200px;
+        height: 60px;
+        display: flex;
+        position: absolute;
+        top: 5px;
+        left: 300px;
+    }
+    nav a{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 60px;
+        height: 60px;
+        position: relative;
+        bottom: 20px;
+        text-decoration: none;
+        color: #345f71;
+    }
+    .head-btn{
+        position: relative;
+        top: 5px;
+        left: 700px;
+        width: 230px;
+        height: 60px;
+        display: flex;
+        gap: 10px;
+    }
+    .sign-in{
+        height: 40px;
+        width: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        border: none;
+        border-radius: 10px;
+        color: #345f71;
+        background-color: transparent;
+        border: 1px solid #345f71;
+    }
+    .se-one{
+display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        border: none;
+        border-radius: 10px;
+        color: #345f71;
+        background-color: transparent;
+        border: 1px solid #345f71;
+    }
+.react-div{
+    display: flex;
+    position: absolute;
+    top: 200px;
+    left: 700px;
+    flex-direction: column;
+}
+.icon-div{
+    display: flex;
+    position: absolute;
+    top: 700px;
+    left: 100px;
+}
+.contaner-text2{
+    display: flex;
+    position: absolute;
+    top: 800px;
+
+    flex-direction: column;
+}
+.cards{
+    display: flex;
+    position: absolute;
+    top: 1000px;
+    left: 100px;
+}
+.card{
+    display: flex;
+    position: absolute;
+    top: 1000px;
+    left: 100px;
+}
+.se-three{
+    display: flex;
+    position: absolute;
+    top: 2300px;
+    width: 992px;
+    height: ;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.view{
+    display:none;n
+}
+.contaner-three{
+    display: flex;
+    position: relative;
+    left: 100px;
+    flex-direction: column;
+}
+.se3-text{
+    display: flex;
+    position: relative;
+    left: -200px;
+    flex-direction: column;
+}
+.se3-cards{
+    display: flex;
+    position: relative;
+    left: -200px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+}

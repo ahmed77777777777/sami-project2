@@ -1,0 +1,97 @@
+body{
+    display: flex;
+}
+img {
+    width: 466px;
+    height: 563px;
+    position: absolute;
+    top: 28px;
+    left: 130px;
+    border-radius: 14px;
+  }
+  .contaner {
+    width: 466px;
+    height: 500px;
+    position: absolute;
+    top: 80px;
+    left: 620px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .contaner img {
+    width: 90px;
+    height: 90px;
+}
+  .contaner h3 {
+    width: 466px;
+    height: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    bottom: 20px;
+    font-weight: 700;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 20px;
+  }
+  .contaner p {
+    width: 466px;
+    height: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    bottom: 20px;
+    font-weight: 700;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 20px;
+    color: #64748b;
+  }
+  .inputs {
+    width: 466px;
+    height: 206px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+   input {
+    width: 466px;
+    height: 25px;
+    border: 1px solid #f0925c1a;
+    background-color: #f0925c0d;
+    border-radius: 90px;
+    padding: 8px;
+  }
+  .contune a {
+    width: 100px;
+    position: absolute;
+    text-decoration: none;
+    color: #ed7b39;
+    top: 500px;
+  }
+  .contune p {
+    position: absolute;
+    right: 100px;
+    top: 483px;
+  }
+  .Reset {
+    width: 466px;
+    height: 35px;
+    padding: 8px 16px;
+    position: relative;
+    background-color: #ed7b39;
+    border: none;
+    border-radius: 90px;
+    color: white;
+    position: relative;
+    left: 10px;
+    top: 10px;
+  }
+  .label{
+    width: 466px;
+    height: 20px;
+  }
